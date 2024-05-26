@@ -28,3 +28,6 @@ def test_two():
     result = two._parse(["2x3x4", "1x1x10"])
     assert result[0]["area"] == 58
     assert result[1]["area"] == 43
+
+    assert result[0]["ribbon"] == 34
+    assert result[1]["ribbon"] == 14
